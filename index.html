@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lennart's Site</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script src="scripts/script.js"></script>
+  </head>
+
+  <body>
+    <!-- Landing screen -->
+    <a id="landingScreenAnchor"></a>
+    <div id="landingScreen" class="section">
+      <div class="centerText colorChanger" data-background='#355977'>
+        <!-- <h1>Lennarts<br/>Website</h1> -->
+        <img id="websiteLogo" src="images/websiteLogo.gif"/ >
+      </div>
+    </div>
+
+    <!-- Personal Screen  -->
+    <a id="personalScreenAnchor"></a>
+    <div id="introScreen" class="section" >
+      <div class="centerText colorChanger" data-background='#69a49f'>
+
+        <img id="avatar" src="images/avatar.gif"/ >
+        <div id="introTextWrapper">
+          <p id="introText" class="textWrapper">
+            I'm Lennart Wijers, 38 years old and born and raised in Haarlem. Before I signed up for the codaisseur course I was a project manager at the prosecutors office. I've done some great projects like improving customer service and better care for crime victims. Last year
+            I decided it was time for something new and more creative in my career, and here I am, coding my first website!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- hobbies Screen -->
+    <a id="hobbiesScreenAnchor"></a>
+    <div id="hobbiesScreen" class="section">
+      <div class="centerText colorChanger" data-background='#664481'>
+        <h2>I like:</h2>
+
+
+
+        <div class="hobbiesIconsWrapper">
+          <img id="scuba" class="hobbyIcons" src="images/scubaIcon.gif" />
+          <img id="guitar" class="hobbyIcons" src="images/guitarIcon.gif" />
+        <!-- </div> -->
+        <!-- <div class="hobbiesIconsWrapper"> -->
+          <img id="reading" class="hobbyIcons" src="images/readingIcon.gif" />
+          <img id="photo" class="hobbyIcons" src="images/photoIcon.gif" />
+        </div>
+
+        <div id="scubaPane" class="popupPane">
+          <img class="paneImage" src="images/diving.jpg"/>
+          <div id="scubaText" class="paneText">
+            <h3>Diving</h3>
+            <p class="paneText">
+              I love diving, warm water, cold water, fresh, salt water... It's all fine with me. The best dive spot I've visited was Richelieu Rock, Thailand, where there was marine life everywhere. Whale Shark still on the 'to see' list though.
+            </p>
+          </div>
+        </div>
+
+        <div id="guitarPane" class="popupPane">
+          <img class="paneImage" src="images/guitar.jpg"/>
+          <div id="scubaText" class="paneText">
+            <h3>Music</h3>
+            <p class="paneText">
+              Music has been a great passion for almost my entire life. My musical taste is omnivorous, ranging from Mozart to Metallica. Fiddling with my guitar is almost a daily must.
+            </p>
+          </div>
+        </div>
+
+        <div id="readingPane" class="popupPane">
+          <img class="paneImage" src="images/bookCase.jpg"/>
+          <div id="scubaText" class="paneText">
+            <h3>Reading</h3>
+            <p class="paneText">
+              I love reading! Mostly popular science, but thrillers and fantasy I'll read just as happily. Best book ever written: "The hitchikers guide to the galaxy". Obviously.
+            </p>
+          </div>
+        </div>
+
+        <div id="photoPane" class="popupPane">
+          <img class="paneImage" src="images/monnik.jpg"/>
+          <div id="scubaText" class="paneText">
+            <h3>Photography</h3>
+            <p class="paneText">
+              I Like taking and editing pretty pictures.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- coding Screen -->
+    <a id="codingScreenAnchor"></a>
+    <div id="codingScreen" class="section">
+      <div class="centerText colorChanger" data-background='#923e32'>
+
+        <a class="codingButt" data-toggle="collapse" href="#text">
+          <h2>This Website</h2>
+          <span class="glyphicon">&#xe114;</span></button>
+        </a>
+          <div id="text" class="collapse textWrapper">
+            <p>I created this website for the first assignment of the codaisseur course. It's the first time I've worked with html. I used the bootstrap, jquery and jquery-ui libraries for some of the animations and interactive elements. It was great fun doing and I'm looking forward to meeting everyone!
+            </p>
+        </div>
+      </div>
+
+
+    </div>
+
+
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+ </body>
+
+</html>

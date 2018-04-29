@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:700" );
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300");
+
+
+html{
+  cursor: default;
+  color: white;
+  width: 100%;
+}
+
+body {
+ background-color: #355977;
+ cursor: default;
+ color: white;
+ transition: background-color 2s ease;
+}
+
+.section {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centerText {
+  width: 75%;
+  text-justify: inter-word;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'Comfortaa', cursive;
+}
+
+h3 {
+  font-family: 'Comfortaa', cursive;
+}
+
+/* Intro page --------------------------------*/
+
+#websiteLogo {
+  position: relative;
+  width: 100%;
+}
+
+/* personal page --------------------------------*/
+#avatar {
+  padding-bottom: 20px;
+}
+
+/* Hobby page --------------------------------*/
+.hobbiesIconsWrapper {
+  margin: 0 auto;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-columns: auto;
+  align-items: center;
+  grid-gap: 30px;
+}
+
+.hobbyIcons {
+  width: 60px;
+  align-self: center;
+}
+
+.popupPane {
+  z-index: 1;
+  position: fixed;
+  background-color: #4386d2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 3%;
+  width: 95vw;
+  border: 4px solid white;
+}
+
+.paneText{
+  margin-bottom: 30px;
+}
+.paneImage {
+  width: 100%;
+  border-radius: 2% 2% 0 0;
+}
+
+#scubaPane, #guitarPane, #readingPane, #photoPane{
+  visibility: hidden;
+}
+
+/* Coding page --------------------------------*/
+a {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+
+/* desktop variant-----------------------------*/
+
+
+@media screen and (min-width: 600px) {
+  #websiteLogo {
+    width: 1800px;
+  }
+
+  p {
+    font-size: 80px;
+  }
+
+  h2 {
+    font-size: 200px;
+  }
+  h3 {
+    font-size: 120px
+  }
+
+  #avatar {
+    width: 800px;
+  }
+
+  .centerText {
+    width: 40%;
+
+  }
+
+  .hobbyIcons {
+    width: 300px;
+    margin: 0px auto;
+    margin-bottom: 200px
+  }
+
+  .hobbiesIconsWrapper {
+    margin: 0 auto;
+    width: 35%;
+    margin-bottom: 200px;
+    }
+
+  .popupPane {
+    max-width: 2000px;}
+
+    .glyphicon {
+      font-size: 100px;
+    }
+}

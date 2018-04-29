@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="220"
+   height="100"
+   viewBox="0 0 58.208332 26.458334"
+   version="1.1"
+   id="svg4649"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="boxWide.svg">
+   <defs>
+       <style type="text/css">
+
+         path {
+           stroke-width: 1px;
+           stroke: white;
+           fill-opacity: 0;
+           stroke-dasharray: 1000;
+           stroke-dashoffset: 1000;
+           animation: dash 5s linear forwards;
+         }
+         @keyframes dash {
+           to {
+             stroke-dashoffset: 0;
+           }
+         }
+      </style>
+    </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.959798"
+     inkscape:cx="128.53866"
+     inkscape:cy="16.356111"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:measure-start="0,0"
+     inkscape:measure-end="0,0" />
+  <metadata
+     id="metadata4646">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-270.54165)">
+    <path
+       d="m 8.3040674,272.67773 c 13.9587616,0.005 27.9177916,-0.0107 41.8763856,0.008 3.460218,0.0727 6.253069,3.42524 5.880013,6.83104 -0.04129,3.40777 0.08643,6.82386 -0.07118,10.22594 -0.409198,3.26216 -3.679561,5.62053 -6.895711,5.25335 -13.70313,-0.005 -27.406529,0.0107 -41.1094904,-0.008 -3.4602184,-0.0727 -6.2530697,-3.42524 -5.880013,-6.83104 0.041291,-3.40777 -0.086429,-6.82386 0.071184,-10.22594 0.3964261,-2.95761 3.1445494,-5.31271 6.128816,-5.25335 z"
+       id="rect4663"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
